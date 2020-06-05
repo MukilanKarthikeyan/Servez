@@ -1,7 +1,7 @@
 # Serveasy
 **Topic:** A solution to help bring society back to Normal during and post Coronavirus pandemic. In our community, we had used whatsapp to try to provide food for families that had been infected but it was not efficient, or easy to keep track of
 
-**Solution:**
+**Solution:** 
 We have decided to create an app, called “Serveasy.” 
 
 Serveasy is an app designed to offer and find help during the pandemic. 
