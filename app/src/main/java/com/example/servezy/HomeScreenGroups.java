@@ -3,10 +3,14 @@ package com.example.servezy;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.view.View;
+import android.widget.EditText;
 import android.widget.Toast;
 
 import com.firebase.ui.auth.AuthUI;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.database.FirebaseDatabase;
 
 public class HomeScreenGroups extends AppCompatActivity {
 
@@ -37,6 +41,20 @@ public class HomeScreenGroups extends AppCompatActivity {
         private void displayChatMessages(){
 
         }
+
+        FloatingActionButton send = (FloatingActionButton)findViewById(R.id.send);
+        send.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                EditText input = (EditText)findViewById(R.id.input);
+
+                FirebaseDatabase.getInstance().getReference().push()
+                        .setValue(new ChatMessage(input.getText().toString(),
+                                FirebaseAuth.getInstance().getCurrentUser().getDisplayName()));
+                input.setText("");
+            }
+        });
+
         @Override
         protected void onActivityResult(int requestCode, int resultCode, Intent data){
             super.onActivityResult(requestCode, resultCode, data);
