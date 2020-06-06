@@ -19,13 +19,11 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 openSignIn();
-
             }
         });
-
     }
     public void openSignIn(){
-        Intent openMain= new Intent(this, SignIn.class );
+        Intent openMain= new Intent(this, Calander.class );
         startActivity(openMain);
     }
 }
