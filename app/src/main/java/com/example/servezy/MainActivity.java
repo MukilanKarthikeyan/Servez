@@ -17,18 +17,14 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         next = findViewById(R.id.welcomeButton);
-        next.setOnClickListener(new View.OnClickListener())
-                GoogleSignInOptions gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
-                        .requestEmail()
-                        .build();
-        mGoogleSignInClient = GoogleSignIn.getClient(this, gso);
-        {
+        next.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 openMainMenu();
 
             }
         });
+
     }
     public void openMainMenu(){
         Intent openMain= new Intent(this, Calander.class );
