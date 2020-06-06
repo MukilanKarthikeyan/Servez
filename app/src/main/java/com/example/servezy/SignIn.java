@@ -7,25 +7,24 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class MainActivity extends AppCompatActivity {
-    private Button next;
+public class SignIn extends AppCompatActivity {
+    private Button signed_in;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_sign_in);
 
-        next = findViewById(R.id.welcomeButton);
-        next.setOnClickListener(new View.OnClickListener() {
+        signed_in = findViewById(R.id.welcomeButton);
+        signed_in.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                openSignIn();
+                nextToCalender();
 
             }
         });
-
     }
-    public void openSignIn(){
-        Intent openMain= new Intent(this, SignIn.class );
-        startActivity(openMain);
+    public void nextToCalender(){
+        Intent nextCal= new Intent(this, Calander.class );
+        startActivity(nextCal);
     }
 }

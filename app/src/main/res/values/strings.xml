@@ -5,11 +5,12 @@
     <string name="next_page">Next</string>
     <string name="back_page">Back</string>
     <string name="date">Date</string>
+    <string name="sign_in">Please Sign in</string>
     <string name="choose">Choose a Date</string>
     <string name="title_activity_service_route">Map</string>
     <string name="title_activity_main_menu">MainMenu</string>
     <string name="tab_text_1">Tab 1</string>
     <string name="tab_text_2">Tab 2</string>
-    <string name="title_activity_test_activty">TestActivty</string>
+    <string name="title_activity_test_activty">TestActivity</string>
     <string name="title_activity_main2">Main2Activity</string>
 </resources>
