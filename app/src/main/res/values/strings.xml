@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">Servez</string>
-    <string name="hello_world">Hello world! Welcome to my app</string>
+    <string name="welcome">Welcome</string>
     <string name="action_settings">Settings</string>
     <string name="next_page">Next</>
     <string name="title_activity_service_route">Map</string>
