@@ -41,10 +41,10 @@
         tools:layout_editor_absoluteY="424dp" />
 
     <Button
+        android:id="@+id/sign_out_btn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Sign Out"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="510dp"
-        android:id="@+id/sign_out_btn"/>
+        tools:layout_editor_absoluteY="593dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
