@@ -18,13 +18,13 @@ public class MainActivity extends AppCompatActivity {
         next.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                openMainMenu();
+                openSignIn();
 
             }
         });
 
     }
-    public void openMainMenu(){
+    public void openSignIn(){
         Intent openMain= new Intent(this, SignIn.class );
         startActivity(openMain);
     }

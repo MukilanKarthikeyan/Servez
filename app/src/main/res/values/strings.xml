@@ -5,6 +5,7 @@
     <string name="next_page">Next</string>
     <string name="back_page">Back</string>
     <string name="date">Date</string>
+    <string name="sign_in">Please Sign in</string>
     <string name="choose">Choose a Date</string>
     <string name="title_activity_service_route">Map</string>
     <string name="title_activity_main_menu">MainMenu</string>
