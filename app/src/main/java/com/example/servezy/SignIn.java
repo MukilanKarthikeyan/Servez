@@ -23,7 +23,7 @@ public class SignIn extends AppCompatActivity {
         });
     }
     public void nextToCalender(){
-        Intent nextCal= new Intent(this, Calander.class );
+        Intent nextCal= new Intent(this, Calendar.class );
         startActivity(nextCal);
     }
 }

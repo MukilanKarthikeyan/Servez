@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "702863136042",
+    "firebase_url": "https://servezy-d4838.firebaseio.com",
+    "project_id": "servezy-d4838",
+    "storage_bucket": "servezy-d4838.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:702863136042:android:96962a7d94f7a7e04aba53",
+        "android_client_info": {
+          "package_name": "com.example.servezy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "702863136042-q1f1gljo2nub0tacn1rndif7g5qo23uv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.servezy",
+            "certificate_hash": "a8b128b91f3723359f30e7715494b3aa344a44be"
+          }
+        },
+        {
+          "client_id": "702863136042-1ecrkromn1kkubpdp1vd8evf4tsq5gbr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4tpAcrOqIkNJrf47D-xcHMwOga-mqHa0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "702863136042-1ecrkromn1kkubpdp1vd8evf4tsq5gbr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
