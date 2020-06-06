@@ -7,7 +7,30 @@ buildscript {
         
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.5.3'
+        classpath 'com.android.tools.build:gradle:4.0.0'
+        apply plugin: 'war'
+        apply plugin: 'sonar'
+        apply plugin: 'signing'
+        apply plugin: 'scala'
+        apply plugin: 'project-report'
+        apply plugin: 'osgi'
+        apply plugin: 'pmd'
+        apply plugin: 'maven'
+        apply plugin: 'jetty'
+        apply plugin: 'jdepend'
+        apply plugin: 'java'
+        apply plugin: 'idea'
+        apply plugin: 'groovy'
+        apply plugin: 'findbugs'
+        apply plugin: 'eclipse-wtp'
+        apply plugin: 'eclipse'
+        apply plugin: 'ear'
+        apply plugin: 'codenarc'
+        apply plugin: 'checkstyle'
+        apply plugin: 'build-announcements'
+        apply plugin: 'application'
+        apply plugin: 'antlr'
+        apply plugin: 'announce'
         implementation 'com.android.support:cardview-v7:28.0.0'
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
