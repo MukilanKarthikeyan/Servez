@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        next = (Button)findViewById(R.id.welcomeButton);
+        next = findViewById(R.id.welcomeButton);
         next.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -24,10 +24,7 @@ public class MainActivity extends AppCompatActivity {
         });
     }
     public void openMainMenu(){
-        Intent openMain= new Intent(this, TestActivity.class );
+        Intent openMain= new Intent(this, Calander.class );
         startActivity(openMain);
     }
-
-
-    }
-
+}
