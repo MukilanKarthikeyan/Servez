@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         });
     }
     public void openSignIn(){
-        Intent openMain= new Intent(this, Calander.class );
+        Intent openMain= new Intent(this, SignIn.class );
         startActivity(openMain);
     }
 }
