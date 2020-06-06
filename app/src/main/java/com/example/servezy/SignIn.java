@@ -19,7 +19,6 @@ public class SignIn extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 nextToCalender();
-
             }
         });
     }
